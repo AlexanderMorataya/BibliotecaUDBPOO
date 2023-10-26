@@ -14,11 +14,11 @@ namespace Log_In
 
         public void Conec()
         {
-            servidor = "DESKTOP-AKPGMGL"; //Nombre del servidor donde se encuentra la base
+            servidor = "RODRIGO\\SQLEXPRESS"; //Nombre del servidor donde se encuentra la base
             db = "LibraryProyect";
-            usuario = "sa";
-            clave = "123456";
-            cadena = "server=" + servidor + ";uid=" + usuario + ";pwd=" + clave + ";database=" + db;
+            usuario = "";
+            clave = "";
+            cadena = @"server=" + servidor + ";integrated security=true;database=" + db;
         }
     }
 }

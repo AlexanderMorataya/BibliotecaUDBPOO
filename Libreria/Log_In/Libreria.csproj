@@ -46,7 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministrarAutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarAutores.Designer.cs">
+      <DependentUpon>AdministrarAutores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
+    <Compile Include="AdministrarLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarLibros.Designer.cs">
+      <DependentUpon>AdministrarLibros.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +98,12 @@
     <Compile Include="VentanaEmpleado.Designer.cs">
       <DependentUpon>VentanaEmpleado.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdministrarAutores.resx">
+      <DependentUpon>AdministrarAutores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarLibros.resx">
+      <DependentUpon>AdministrarLibros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
