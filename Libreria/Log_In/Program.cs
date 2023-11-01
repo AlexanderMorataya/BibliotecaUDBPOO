@@ -16,7 +16,7 @@ namespace Log_In
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VentanaAdmin());
+            Application.Run(new RetornoLibros());
         }
     }
 }
