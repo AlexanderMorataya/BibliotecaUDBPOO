@@ -188,6 +188,7 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.dvgEscritores);
             this.Name = "AdministrarAutores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdministrarAutores";
             this.Load += new System.EventHandler(this.AdministrarAutores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgEscritores)).EndInit();

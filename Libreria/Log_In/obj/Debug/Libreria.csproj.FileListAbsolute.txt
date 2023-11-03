@@ -80,3 +80,27 @@ C:\Users\Usuario\Downloads\BibliotecaUDBPOO-main\Libreria\Log_In\obj\Debug\aa\Lo
 C:\Users\Usuario\Downloads\BibliotecaUDBPOO-main\Libreria\Log_In\obj\Debug\Log_In.exe
 C:\Users\Usuario\Downloads\BibliotecaUDBPOO-main\Libreria\Log_In\obj\Debug\Log_In.pdb
 C:\Users\Usuario\Downloads\BibliotecaUDBPOO-main\Libreria\Log_In\obj\Debug\Log_In.RetornoLibros.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\bin\Debug\Log_In.exe.config
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\bin\Debug\Log_In.exe
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\bin\Debug\Log_In.pdb
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\bin\Debug\aa\Log_In.resources.dll
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Libreria.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Libreria.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.AdministrarAutores.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.AdministrarLibros.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.Alquilar_Libros.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.LogIn.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.Properties.Resources.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.Registro.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.Registro2.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.RegistroConfirmacion.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.RetornoLibros.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.VentanaAdmin.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.VentanaEmpleado.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.Registro.aa.resources
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Libreria.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\aa\Log_In.resources.dll
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.exe
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.pdb
+C:\Users\HP\Desktop\UDB\PROYECTO CATEDRA POO\Repositorio\AlexanderMorataya\BibliotecaUDBPOO\Libreria\Log_In\obj\Debug\Log_In.AdministrarGanancias.resources
