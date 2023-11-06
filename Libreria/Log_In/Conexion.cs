@@ -14,8 +14,8 @@ namespace Log_In
 
         public void Conec()
         {
-            servidor = "RODRIGO\\SQLEXPRESS"; //Nombre del servidor donde se encuentra la base
-            db = "LibraryProyect";
+            servidor = ""; //Nombre del servidor donde se encuentra la base
+            db = "";
             usuario = "";
             clave = "";
             cadena = @"server=" + servidor + ";integrated security=true;database=" + db;
