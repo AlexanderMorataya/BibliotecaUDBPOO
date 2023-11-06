@@ -52,6 +52,18 @@
     <Compile Include="AdministrarAutores.Designer.cs">
       <DependentUpon>AdministrarAutores.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdministrarGanancias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarGanancias.Designer.cs">
+      <DependentUpon>AdministrarGanancias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alquilar_Libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alquilar_Libros.Designer.cs">
+      <DependentUpon>Alquilar_Libros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="AdministrarLibros.cs">
       <SubType>Form</SubType>
@@ -103,6 +115,7 @@
     <Compile Include="RegistroConfirmacion.Designer.cs">
       <DependentUpon>RegistroConfirmacion.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ReservarLibros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +127,13 @@
     </Compile>
     <Compile Include="ReservarLibros2.Designer.cs">
       <DependentUpon>ReservarLibros2.cs</DependentUpon>
+=======
+    <Compile Include="RetornoLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetornoLibros.Designer.cs">
+      <DependentUpon>RetornoLibros.cs</DependentUpon>
+>>>>>>> 190c953a561ffeb178a9366df4f2fbc5973d6eff
     </Compile>
     <Compile Include="Usuario_Controlador.cs" />
     <Compile Include="VenderLibros.cs">
@@ -143,9 +163,13 @@
     <EmbeddedResource Include="AdministrarAutores.resx">
       <DependentUpon>AdministrarAutores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarGanancias.resx">
+      <DependentUpon>AdministrarGanancias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdministrarLibros.resx">
       <DependentUpon>AdministrarLibros.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="FacturaDeVentaLibros.resx">
       <DependentUpon>FacturaDeVentaLibros.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +178,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LibrosPrestados.resx">
       <DependentUpon>LibrosPrestados.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Alquilar_Libros.resx">
+      <DependentUpon>Alquilar_Libros.cs</DependentUpon>
+>>>>>>> 190c953a561ffeb178a9366df4f2fbc5973d6eff
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
@@ -180,6 +208,7 @@
     <EmbeddedResource Include="RegistroConfirmacion.resx">
       <DependentUpon>RegistroConfirmacion.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="ReservarLibros.resx">
       <DependentUpon>ReservarLibros.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +220,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VenderLibros2.resx">
       <DependentUpon>VenderLibros2.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="RetornoLibros.resx">
+      <DependentUpon>RetornoLibros.cs</DependentUpon>
+>>>>>>> 190c953a561ffeb178a9366df4f2fbc5973d6eff
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaAdmin.resx">
       <DependentUpon>VentanaAdmin.cs</DependentUpon>

@@ -143,9 +143,7 @@ namespace Log_In
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            VentanaAdmin form = new VentanaAdmin();
-            form.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)

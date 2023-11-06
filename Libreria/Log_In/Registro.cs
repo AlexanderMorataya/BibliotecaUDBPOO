@@ -67,27 +67,32 @@ namespace Log_In
         }
 
         //PROGRAMACION DE COMPORTAMIENTOS Y EVENTOS DEL PROGRAMA
-        private void TxtUserDUI_TextChanged(object sender, EventArgs e)
+        private void TxtUserPhoneNumber_Enter(object sender, EventArgs e)
         {
-            TextBox textBox = (TextBox)sender;
-            string text = textBox.Text;
-
-            if(text.Length == 8)
+            if(TxtUserPhoneNumber.Text == "0000-0000")
             {
-                textBox.Text = text.Insert(8, "-");
-                textBox.SelectionStart = 10;
+                TxtUserPhoneNumber.Text = "";
             }
         }
-
-        private void TxtUserPhoneNumber_TextChanged(object sender, EventArgs e)
+        private void TxtUserPhoneNumber_Leave(object sender, EventArgs e)
         {
-            TextBox textBox = (TextBox)sender;
-            string text = textBox.Text;
-
-            if (text.Length == 4)
+            if (TxtUserPhoneNumber.Text == "")
             {
-                textBox.Text = text.Insert(4, "-");
-                textBox.SelectionStart = 6;
+                TxtUserPhoneNumber.Text = "0000-0000";
+            }
+        }
+        private void TxtUserDUI_Enter(object sender, EventArgs e)
+        {
+            if(TxtUserDUI.Text == "00000000-0")
+            {
+                TxtUserDUI.Text = "";
+            }
+        }
+        private void TxtUserDUI_Leave(object sender, EventArgs e)
+        {
+            if (TxtUserDUI.Text == "")
+            {
+                TxtUserDUI.Text = "00000000-0";
             }
         }
 
