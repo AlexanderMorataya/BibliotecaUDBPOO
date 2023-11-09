@@ -21,5 +21,19 @@ namespace Log_In
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AdministrarLibros form = new AdministrarLibros();
+            form.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AdministrarAutores form = new AdministrarAutores();
+            form.Show();
+            this.Hide();
+        }
     }
 }

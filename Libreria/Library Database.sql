@@ -1,14 +1,14 @@
 CREATE DATABASE LibraryProyect
 ON
 ( NAME = LibraryProyect_dat,
-	FILENAME = 'C:\Almacenamiento_PracticasMDB\PROYECTOPOO\LibraryProyect.mdf',
+	FILENAME = 'D:\PROYECTOS\LibraryProyect.mdf',
 	SIZE = 5,
 	MAXSIZE = 20,
 	FILEGROWTH = 5	
 )
 LOG ON
 ( NAME = LibraryProyect_LOG,
-	FILENAME = 'C:\Almacenamiento_PracticasMDB\PROYECTOPOO\LibraryProyect.Ldf',
+	FILENAME = 'D:\PROYECTOS\LibraryProyect.Ldf',
 	SIZE = 2,
 	MAXSIZE = 10,
 	FILEGROWTH = 2	
@@ -43,7 +43,7 @@ CREATE TABLE [Libros] (
   [nombre_libro] nvarchar(255),
   [genero] nvarchar(255),
   [year] date,
-  [disponible] bit,
+  [disponible] nvarchar(10),
   [escritor_id] int
 )
 GO

@@ -46,7 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministrarAutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarAutores.Designer.cs">
+      <DependentUpon>AdministrarAutores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
+    <Compile Include="AdministrarLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministrarLibros.Designer.cs">
+      <DependentUpon>AdministrarLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaDeVentaLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaDeVentaLibros.Designer.cs">
+      <DependentUpon>FacturaDeVentaLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaReservaLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaReservaLibros.Designer.cs">
+      <DependentUpon>FacturaReservaLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibrosPrestados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibrosPrestados.Designer.cs">
+      <DependentUpon>LibrosPrestados.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,7 +103,31 @@
     <Compile Include="RegistroConfirmacion.Designer.cs">
       <DependentUpon>RegistroConfirmacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReservarLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservarLibros.Designer.cs">
+      <DependentUpon>ReservarLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservarLibros2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservarLibros2.Designer.cs">
+      <DependentUpon>ReservarLibros2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario_Controlador.cs" />
+    <Compile Include="VenderLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenderLibros.Designer.cs">
+      <DependentUpon>VenderLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VenderLibros2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenderLibros2.Designer.cs">
+      <DependentUpon>VenderLibros2.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +140,21 @@
     <Compile Include="VentanaEmpleado.Designer.cs">
       <DependentUpon>VentanaEmpleado.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdministrarAutores.resx">
+      <DependentUpon>AdministrarAutores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministrarLibros.resx">
+      <DependentUpon>AdministrarLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturaDeVentaLibros.resx">
+      <DependentUpon>FacturaDeVentaLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturaReservaLibros.resx">
+      <DependentUpon>FacturaReservaLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibrosPrestados.resx">
+      <DependentUpon>LibrosPrestados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +179,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroConfirmacion.resx">
       <DependentUpon>RegistroConfirmacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservarLibros.resx">
+      <DependentUpon>ReservarLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservarLibros2.resx">
+      <DependentUpon>ReservarLibros2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenderLibros.resx">
+      <DependentUpon>VenderLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenderLibros2.resx">
+      <DependentUpon>VenderLibros2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaAdmin.resx">
       <DependentUpon>VentanaAdmin.cs</DependentUpon>
