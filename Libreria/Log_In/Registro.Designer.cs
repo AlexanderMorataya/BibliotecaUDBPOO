@@ -87,7 +87,8 @@
             this.TxtUserPhoneNumber.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtUserPhoneNumber.Name = "TxtUserPhoneNumber";
             this.TxtUserPhoneNumber.TabStop = false;
-            this.TxtUserPhoneNumber.TextChanged += new System.EventHandler(this.TxtUserPhoneNumber_TextChanged);
+            this.TxtUserPhoneNumber.Enter += new System.EventHandler(this.TxtUserPhoneNumber_Enter);
+            this.TxtUserPhoneNumber.Leave += new System.EventHandler(this.TxtUserPhoneNumber_Leave);
             // 
             // TxtUserDUI
             // 
@@ -97,7 +98,8 @@
             this.TxtUserDUI.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.TxtUserDUI.Name = "TxtUserDUI";
             this.TxtUserDUI.TabStop = false;
-            this.TxtUserDUI.TextChanged += new System.EventHandler(this.TxtUserDUI_TextChanged);
+            this.TxtUserDUI.Enter += new System.EventHandler(this.TxtUserDUI_Enter);
+            this.TxtUserDUI.Leave += new System.EventHandler(this.TxtUserDUI_Leave);
             // 
             // BtnContinueRg
             // 
@@ -118,7 +120,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(33)))), ((int)(((byte)(38)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(11)))), ((int)(((byte)(38)))));
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.BtnCloseWindow);

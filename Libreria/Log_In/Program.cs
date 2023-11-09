@@ -16,7 +16,11 @@ namespace Log_In
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new ReservarLibros());
+=======
+            Application.Run(new LogIn());
+>>>>>>> 190c953a561ffeb178a9366df4f2fbc5973d6eff
         }
     }
 }

@@ -80,7 +80,7 @@ CREATE TABLE [Reserva] (
 GO
 
 CREATE TABLE [Ganancias] (
-  [id_] int PRIMARY KEY,
+  [id_ganancias] int PRIMARY KEY,
   [fecha] date,
   [ganancia_rentas] money,
   [ganancia_demoras] money,
@@ -91,11 +91,12 @@ CREATE TABLE [Ganancias] (
 )
 GO
 
-CREATE TABLE [ventas] (
+CREATE TABLE [Ventas] (
   [venta_id] int PRIMARY KEY,
   [libro_id] int,
   [cliente_id] int,
-  [usuario_id] nvarchar(6)
+  [usuario_id] nvarchar(6),
+  [fecha_venta] date DEFAULT GETDATE()
 )
 GO
 

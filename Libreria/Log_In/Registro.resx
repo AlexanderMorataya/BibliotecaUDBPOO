@@ -297,6 +297,9 @@
   <data name="TxtUserPhoneNumber.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="TxtUserPhoneNumber.Text" xml:space="preserve">
+    <value>0000-0000</value>
+  </data>
   <data name="&gt;&gt;TxtUserPhoneNumber.Name" xml:space="preserve">
     <value>TxtUserPhoneNumber</value>
   </data>
@@ -326,6 +329,9 @@
   </data>
   <data name="TxtUserDUI.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
+  </data>
+  <data name="TxtUserDUI.Text" xml:space="preserve">
+    <value>00000000-0</value>
   </data>
   <data name="&gt;&gt;TxtUserDUI.Name" xml:space="preserve">
     <value>TxtUserDUI</value>

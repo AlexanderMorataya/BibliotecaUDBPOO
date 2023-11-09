@@ -297,6 +297,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnIngresar);
             this.Name = "AdministrarLibros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdministrarLibros";
             this.Load += new System.EventHandler(this.AdministrarLibros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).EndInit();

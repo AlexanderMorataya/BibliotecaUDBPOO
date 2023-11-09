@@ -56,7 +56,14 @@ namespace Log_In
                 {
                     if (!char.IsDigit(numero[i]))
                     {
-                        errors.Add("Error: El campo telefono solo puede llevar numeros.");
+                        errors.Add("Error: El campo telefono solo puede llevar numeros (A excepcion del - del formato).");
+                    }
+                }
+                else
+                {
+                    if (numero[i] != '-')
+                    {
+                        errors.Add("Error: El campo telefono debe llevar un - como tras los primeros 4 digitos");
                     }
                 }
             }
@@ -78,6 +85,13 @@ namespace Log_In
                     if (!char.IsDigit(dui[i]))
                     {
                         errors.Add("Error: En el campo DUI solo debe digitar numeros");
+                    }
+                }
+                else
+                {
+                    if (dui[i] != '-')
+                    {
+                        errors.Add("Error: El campo DUI debe llevar un - como tras los primeros 9 digitos");
                     }
                 }
             }
